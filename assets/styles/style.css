@@ -1,0 +1,395 @@
+.roundlogo{
+  border-radius: 50%;
+}
+
+body{
+  margin: 0;
+}
+
+#container{
+  width: 100%;
+}
+
+#header {
+  width: 100%;
+  height: 130px;
+}
+
+#logo{
+  float: left;
+  text-align: center;
+  width: 20%;
+  height: 130px;
+  margin: 0;
+  padding: 0;
+  background: #FFCF77;
+}
+
+#logo img{
+  margin-top: 15px;
+}
+
+#name{
+  float:left;
+  width: 40%;
+  height: 130px;
+  margin: 0;
+  padding: 0;
+  background: #FFCF77;
+  font-family: Georgia;
+}
+
+#info{
+  float: left;
+  text-align: right;
+  width: 40%;
+  height: 130px;
+  margin: 0;
+  padding: 0;
+  background: #FFCF77;
+  font-family: Georgia;
+}
+
+h6{
+  margin-bottom: -25px;
+  margin-right: 15px;
+}
+
+#content{
+  width:100%;
+  height: 900px;
+}
+
+#sidebar{
+  float: left;
+  width: 20%;
+  height: 900px;
+  background: #FFC355;
+}
+
+#maininfo{
+  float: left;
+  width: 80%;
+  height: 900px;
+}
+
+#objective{
+  text-align: center;
+  line-height: 180px;
+  height: 180px;
+  background: #FFC355;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+#objective:hover{
+  background: white;
+}
+
+#objective a:hover{
+  color: #FFC355;
+}
+
+#objective a{
+  display: inline-block;
+  margin: 0px;
+  width:100%;
+  text-decoration: none;
+  line-height: 180px;
+  height: 180px;
+  color: white;
+  font-weight: 900;
+}
+
+#education{
+  border-top: 1px solid black;
+  text-align: center;
+  line-height: 180px;
+  height: 180px;
+  background: #FFB836;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+#education:hover{
+  background: white;
+}
+
+#education a:hover{
+  color: #FFB836;
+}
+
+#education a{
+  display: inline-block;
+  margin: 0px;
+  width:100%;
+  text-decoration: none;
+  line-height: 180px;
+  height: 180px;
+  color: white;
+  font-weight: 900;
+}
+
+#qualifications{
+  border-top: 1px solid black;
+  text-align: center;
+  line-height: 180px;
+  height: 180px;
+  background: #FFAE1A;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+#qualifications:hover{
+  background: white;
+}
+
+#qualifications a:hover{
+  color: #FFAE1A;
+}
+
+#qualifications a{
+  display: inline-block;
+  margin: 0px;
+  width:100%;
+  text-decoration: none;
+  line-height: 180px;
+  height: 180px;
+  color: white;
+  font-weight: 900;
+}
+
+#work\ experience{
+  border-top: 1px solid black;
+  text-align: center;
+  line-height: 180px;
+  height: 180px;
+  background: #FFA500;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+#work\ experience:hover{
+  background: white;
+}
+
+#work\ experience a:hover{
+  color: #FFA500;
+}
+
+#work\ experience a{
+  display: inline-block;
+  margin: 0px;
+  width:100%;
+  text-decoration: none;
+  line-height: 180px;
+  height: 180px;
+  color: white;
+  font-weight: 900;
+}
+
+#personal\ qualities\ \&\ special\ skills{
+  border-top: 1px solid black;
+  text-align: center;
+  line-height: 60px;
+  height: 180px;
+  background: #E69400;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+#personal\ qualities\ \&\ special\ skills:hover{
+  background: white;
+}
+
+#personal\ qualities\ \&\ special\ skills a:hover{
+  color: #E69400;
+}
+
+#personal\ qualities\ \&\ special\ skills a{
+  display: inline-block;
+  margin: 0px;
+  width:100%;
+  text-decoration: none;
+  line-height: 60px;
+  height: 180px;
+  color: white;
+  font-weight: 900;
+}
+
+#objectiveinfo{
+  line-height: 36px;
+  height: 180px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+#objectiveinfo li{
+  color: #FFC355;
+}
+
+#objectiveinfo li span{
+  color: black;
+}
+
+#educationinfo{
+  border-top: 1px solid black;
+  line-height: 45px;
+  height: 180px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+#educationinfo li{
+  color: #FFB836;
+}
+
+#educationinfo li span{
+  color: black;
+}
+
+#qualificationsinfo{
+  border-top: 1px solid black;
+  line-height: 30px;
+  height: 180px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+#qualificationsinfo li{
+  color: #FFAE1A;
+}
+
+#qualificationsinfo li span{
+  color: black;
+}
+
+#workexperienceinfo{
+  border-top: 1px solid black;
+  height: 180px;
+  background: #FFA500;
+}
+
+#secondplace{
+  height: 90px;
+}
+
+#secondwork{
+  float: left;
+  width: 30%;
+  height: 90px;
+  line-height: 30px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+  padding-left: 2%;
+}
+
+#secondtypeofwork{
+  float: left;
+  width:68%;
+  height: 90px;
+  line-height: 22.5px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+#firstplace{
+  height: 90px;
+}
+
+#firstwork{
+  border-top: 1px dashed black;
+  float: left;
+  width: 30%;
+  height: 89px;
+  line-height: 29.67px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+  padding-left: 2%;
+}
+
+#firsttypeofwork{
+  border-top: 1px dashed black;
+  float: left;
+  width:68%;
+  height: 89px;
+  line-height: 29.67px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+}
+
+#workexperienceinfo li{
+  color: #FFA500;
+}
+
+#workexperienceinfo li span{
+  color: black;
+}
+
+#personalqualities\&specialskillsinfo{
+  border-top: 1px solid black;
+  height: 180px;
+  background: #E69400;
+}
+
+#personalqualities{
+  float: left;
+  width: 48%;
+  height: 180px;
+  line-height: 36px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+  padding-left: 2%;
+}
+
+#specialskills{
+  float: left;
+  width: 48%;
+  height: 180px;
+  line-height: 36px;
+  background: white;
+  font-size: 20px;
+  font-family: Georgia;
+  padding-left: 2%;
+}
+
+#personalqualities\&specialskillsinfo li{
+  color: #E69400;
+}
+
+#personalqualities\&specialskillsinfo li span{
+  color: black;
+}
+
+ul{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer{
+  width: 100%;
+  height: 102px;
+  background: #CF8500;
+}
+
+p{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 34px;
+  font-size: 13px;
+  font-family: Georgia;
+  font-weight: 700;
+}
+
+
+
+
